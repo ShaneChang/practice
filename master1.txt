@@ -1,0 +1,23 @@
+05-13 07:28:41.553: E/art(11769): invalid stream - problem with parameter iterator in /data/app/com.kwayinc.customerApp-1/base.apk for method boolean com.citrix.mdx.e.a.a.c(android.content.Context)
+05-13 07:28:41.553: E/art(11769): invalid stream - problem with parameter iterator in /data/app/com.kwayinc.customerApp-1/base.apk for method void com.citrix.worx.sdk.CrashManager.b(java.lang.Thread, java.lang.Throwable)
+05-13 07:28:41.553: E/art(11769): invalid stream - problem with parameter iterator in /data/app/com.kwayinc.customerApp-1/base.apk for method void com.citrix.worx.sdk.CrashManager.a(java.lang.Thread, java.lang.Throwable)
+05-13 07:28:41.553: E/art(11769): invalid stream - problem with parameter iterator in /data/app/com.kwayinc.customerApp-1/base.apk for method void com.citrix.worx.sdk.a.uncaughtException(java.lang.Thread, java.lang.Throwable)
+05-13 07:28:41.558: E/AndroidRuntime(11769): FATAL EXCEPTION: main
+05-13 07:28:41.558: E/AndroidRuntime(11769): Process: com.kwayinc.customerApp, PID: 11769
+05-13 07:28:41.558: E/AndroidRuntime(11769): java.lang.RuntimeException: Unable to create service com.citrix.MAM.Android.ManagedApp.CtxAppManager: java.lang.ClassCastException: android.app.Application cannot be cast to com.citrix.MAM.Android.ManagedApp.CtxProxyApp
+05-13 07:28:41.558: E/AndroidRuntime(11769): 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:3817)
+05-13 07:28:41.558: E/AndroidRuntime(11769): 	at android.app.ActivityThread.access$2100(ActivityThread.java:221)
+05-13 07:28:41.558: E/AndroidRuntime(11769): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1882)
+05-13 07:28:41.558: E/AndroidRuntime(11769): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-13 07:28:41.558: E/AndroidRuntime(11769): 	at android.os.Looper.loop(Looper.java:158)
+05-13 07:28:41.558: E/AndroidRuntime(11769): 	at android.app.ActivityThread.main(ActivityThread.java:7225)
+05-13 07:28:41.558: E/AndroidRuntime(11769): 	at java.lang.reflect.Method.invoke(Native Method)
+05-13 07:28:41.558: E/AndroidRuntime(11769): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1230)
+05-13 07:28:41.558: E/AndroidRuntime(11769): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1120)
+05-13 07:28:41.558: E/AndroidRuntime(11769): Caused by: java.lang.ClassCastException: android.app.Application cannot be cast to com.citrix.MAM.Android.ManagedApp.CtxProxyApp
+05-13 07:28:41.558: E/AndroidRuntime(11769): 	at com.citrix.MAM.Android.ManagedApp.CtxAppManager.onCreate(Unknown Source)
+05-13 07:28:41.558: E/AndroidRuntime(11769): 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:3807)
+05-13 07:28:41.558: E/AndroidRuntime(11769): 	... 8 more
+05-13 07:28:41.558: E/android.os.Debug(3679): ro.product_ship = true
+05-13 07:28:41.558: E/android.os.Debug(3679): ro.debug_level = 0x4f4c
+05-13 07:28:41.558: E/android.os.Debug(3679): sys.mobilecare.preload = false
